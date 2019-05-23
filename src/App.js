@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ClickCard from "./components/ClickCard";
 import Wrapper from "./components/Wrapper/index.js";
 import Header from "./components/Header/header.js";
-import './App.css';
+import './App.css'
 
 const fighter = require("./clickCards.json");
 
@@ -39,8 +39,7 @@ class App extends Component {
           this.handleIncorrectGuess(updatedSmashList)
         }
 
-        shuffleFighters = (smashList) => smashList.sort(() => .5 - 
-        Math.random());
+        
 
     // IF A CLICK IS CORRECT OR WRONG
       handleCorrectGuess = (smashList) => {
@@ -95,7 +94,7 @@ class App extends Component {
         return a;
     }
 
-    render() {
+    render() {i
     console.log(this.state.smashList);
     return (
       <div>
